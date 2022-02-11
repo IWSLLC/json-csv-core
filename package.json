@@ -1,6 +1,6 @@
 {
   "name": "@iwsio/json-csv-core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A core library for browser and node to support and extend json-csv project's original goal.",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
