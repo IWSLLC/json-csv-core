@@ -19,3 +19,4 @@ Thumbs.db
 .release
 .config
 .private
+.npmrc
