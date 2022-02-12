@@ -19,8 +19,6 @@ export type ExportOptions = {
   fieldSeparator?: string;
   fields: FieldList;
   ignoreHeader: boolean;
-  buffered: boolean;
-  encoding: string;
 }
 
 export type Buffered = (data: Record<string, any>[], opts?: ExportOptionsParam) => string;
