@@ -86,8 +86,8 @@ test,123,yes,test
 }
 ```
 
-## Simple CSV
-Run the samples.
+## [Simple CSV](https://github.com/IWSLLC/json-csv-core/blob/main/samples/simple.mjs)
+This simple example is much like what you see above. A simple list of key values that are exported to a CSV.
 
 ```bash
 node samples/simple.mjs
@@ -102,7 +102,9 @@ node samples/simple.mjs
 "jo with a quote""",jo@somewhere,1.02
 ```
 
-## Advanced CSV
+## [Advanced CSV](https://github.com/IWSLLC/json-csv-core/blob/main/samples/advanced.mjs)
+This example uses a deeply nested object with dot notation references to the exported field names.
+
 ```bash
 node samples/advanced.mjs
 ```
