@@ -128,4 +128,6 @@ export function getValueIx(data, keys, ix) {
   return val
 }
 
+export const toCsv = buffered
+
 export default buffered

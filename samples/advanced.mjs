@@ -1,4 +1,4 @@
-import { buffered } from '../dist/index.js'
+import { toCsv } from '../dist/index.js'
 
 const items = [
   {
@@ -63,6 +63,6 @@ const options = {
   ]
 }
 
-const csv = buffered(items, options)
+const csv = toCsv(items, options)
 
 console.log(csv)
