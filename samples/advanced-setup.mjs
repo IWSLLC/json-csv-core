@@ -1,6 +1,4 @@
-import { toCsv } from '../dist/index.js'
-
-const items = [
+export const items = [
   {
     downloaded: false,
     contact: {
@@ -26,7 +24,7 @@ const items = [
     }
   }
 ]
-const options = {
+export const options = {
   fields: [
     {
       name: 'contact.company',
@@ -62,7 +60,3 @@ const options = {
     }
   ]
 }
-
-const csv = toCsv(items, options)
-
-console.log(csv)

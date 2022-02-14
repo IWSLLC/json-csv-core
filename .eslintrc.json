@@ -13,7 +13,8 @@
   
   "env": {
     "es2021": true,
-    "browser": true
+    "browser": true,
+    "node": true
   },
 
   "plugins": [
