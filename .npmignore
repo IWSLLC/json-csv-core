@@ -19,3 +19,6 @@ logs
 node_modules
 npm-debug.log
 tsconfig.json
+
+babel.config.json
+webpack.config.js
