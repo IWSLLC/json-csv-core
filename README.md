@@ -2,9 +2,7 @@
 
 [![Tests CI](https://github.com/IWSLLC/json-csv-core/actions/workflows/test.yaml/badge.svg)](https://github.com/IWSLLC/json-csv-core/actions/workflows/test.yaml)
 
-Simple CSV export module that can export a rich JSON array of objects to CSV. This core library will focus on the buffered and single object conversion to CSV and is built for node AND browser. 
-
-My goals here are to open up the audience for the node-only package: [`@iwsio/json-csv-node`](https://www.npmjs.com/package/@iwsio/json-csv-node) (formerly: [`json-csv`](https://www.npmjs.com/package/json-csv)), which will still serve as the Node-only extension supporting Stream API.
+Simple CSV export module that can export a rich JSON array of objects to CSV. This core library will focus on the buffered and single object conversion to CSV and is built for node AND browser. You can [read more about it and see a live example on my blog.](https://iws.io/2022/json-csv-v5) 
 
 ## Getting Started
 
