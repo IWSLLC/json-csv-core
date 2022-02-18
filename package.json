@@ -20,9 +20,15 @@
     "url": "git@github.com:IWSLLC/json-csv-core.git"
   },
   "keywords": [
-    "json",
     "csv",
-    "convert"
+    "json",
+    "convert",
+    "export csv",
+    "convert csv",
+    "typescript",
+    "export",
+    "buffered",
+    "browser"
   ],
   "browserslist": [
     "defaults",
