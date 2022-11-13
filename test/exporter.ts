@@ -10,7 +10,7 @@ describe('buffered', function() {
           { name: 'age', label: 'Age' }
         ]
       }
-      this.source = [
+      const source: any = [
         { name: 'fred', age: 14 },
         { name: 'george', age: 24 },
         { name: 'frank', age: 53 },
@@ -20,7 +20,7 @@ describe('buffered', function() {
         { name: 'Test,Test', age: 43 },
         null
       ]
-      this.result = buffered(this.source, options)
+      this.result = buffered(source, options)
     })
     it('should have the correct output', function() {
       expect(this.result).to.equal('Name,Age\r\nFRED,14\r\nGEORGE,24\r\nFRANK,53\r\nSUSIE,43\r\n,44\r\n,45\r\n"TEST,TEST",43\r\n,\r\n')
