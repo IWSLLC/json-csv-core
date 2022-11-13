@@ -1,4 +1,5 @@
-import buffered, { getBodyRow, getHeaderRow, checkOptions } from './exporter'
+import { buffered } from './exporter'
 
-export { buffered, buffered as toCsv, getBodyRow, getHeaderRow, checkOptions }
+export * from './exporter'
+
 export default buffered
