@@ -1,5 +1,5 @@
-import { buffered } from './exporter'
+import { buffered, toCsv } from './exporter'
 
-export * from './exporter'
+export { buffered, toCsv }
 
 export default buffered
