@@ -1,0 +1,30 @@
+{
+  "name": "@iwsio/json-csv-core-demo",
+  "version": "0.2.14-alpha.3",
+  "description": "",
+  "main": "node bin/www.js",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "source-map-loader": "^4.0.1"
+  },
+  "scripts": {
+    "cli-advanced": "node src/node-advanced.mjs",
+    "cli-simple": "node src/node-simple.mjs",
+    "start": "webpack-dev-server"
+  },
+  "author": "Nathan Bridgewater",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.68.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

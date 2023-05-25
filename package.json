@@ -1,73 +1,11 @@
 {
-  "name": "@iwsio/json-csv-core",
-  "version": "0.2.13",
+  "name": "@iwsio/json-csv-core-root",
+  "version": "0.2.14-alpha.3",
   "description": "Easily convert JSON to CSV. This is a core library built for browser and node to support buffered conversion to CSV.",
-  "main": "dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "./dist"
-  ],
-  "exports": {
-    ".": "./dist/index.js",
-    "./index": "./dist/index.js",
-    "./exporter": "./dist/exporter.js"
-  },
-  "scripts": {
-    "test": "npm-run-all test:*",
-    "test:js": "mocha $@",
-    "test:ts": "mocha --config .mocharc-ts.json $@",
-    "prebuild": "rimraf dist samples/dist",
-    "build:js": "babel src --out-dir dist --source-maps",
-    "build:sample": "webpack --mode production",
-    "build:ts": "tsc",
-    "build": "npm-run-all build:*",
-    "serve": "serve -l 3000 -s ./samples"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:IWSLLC/json-csv-core.git"
-  },
-  "keywords": [
-    "csv",
-    "json",
-    "convert",
-    "export csv",
-    "convert csv",
-    "typescript",
-    "export",
-    "buffered",
-    "browser"
-  ],
-  "browserslist": [
-    "defaults",
-    "IE 11"
-  ],
-  "author": "Nathan Bridgewater <info@iws.io> (https://iws.io/)",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/IWSLLC/json-csv-core/issues"
-  },
-  "homepage": "https://github.com/IWSLLC/json-csv-core#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.17.0",
-    "@babel/core": "^7.17.2",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/register": "^7.17.0",
-    "@types/chai": "^4.3.4",
-    "@types/mocha": "^9.1.1",
-    "babel-loader": "^9.1.0",
-    "chai": "^4.3.7",
-    "eslint": "^8.8.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-mocha": "^10.0.3",
-    "eslint-plugin-promise": "^6.0.0",
-    "mocha": "^9.2.2",
-    "npm-run-all": "^4.1.5",
-    "rimraf": "^3.0.2",
-    "serve": "^14.1.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.5.5",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
-  }
+  "files": [],
+  "workspaces": [
+    "demo",
+    "core",
+    "test-runner"
+  ]
 }

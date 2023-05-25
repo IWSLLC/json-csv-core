@@ -5,8 +5,7 @@
   "colors": true,
   "exit": true,
   "require": [
-    "@babel/register",
-    "globals"
+    "./test/globals"
   ],
   "extension": [
     "js"

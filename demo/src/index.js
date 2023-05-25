@@ -1,4 +1,4 @@
-import { toCsv } from '../src'
+import { toCsv } from '../../core/dist'
 import { items, options } from './advanced-setup.mjs'
 
 window.handleConvert = () => {

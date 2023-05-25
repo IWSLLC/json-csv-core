@@ -1,0 +1,46 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:node/recommended",
+		"plugin:mocha/recommended",
+		"plugin:chai-friendly/recommended"
+	],
+
+	"env": {
+		"node": true
+	},
+
+	"plugins": [
+		"node",
+		"mocha",
+		"chai-friendly"
+	],
+
+	"globals": {
+		"expect": "readonly"
+	},
+
+	"rules": {
+		"indent": ["error", "tab", {
+			"SwitchCase": 1,
+			"VariableDeclarator": 1,
+			"outerIIFEBody": 1,
+			"MemberExpression": 1,
+			"FunctionDeclaration": { "parameters": 1, "body": 1 },
+			"FunctionExpression": { "parameters": 1, "body": 1 },
+			"CallExpression": { "arguments": 1 },
+			"ArrayExpression": 1,
+			"ObjectExpression": 1,
+			"ImportDeclaration": 1,
+			"flatTernaryExpressions": false,
+			"ignoreComments": false,
+			"ignoredNodes": ["TemplateLiteral *", "JSXElement", "JSXElement > *", "JSXAttribute", "JSXIdentifier", "JSXNamespacedName", "JSXMemberExpression", "JSXSpreadAttribute", "JSXExpressionContainer", "JSXOpeningElement", "JSXClosingElement", "JSXFragment", "JSXOpeningFragment", "JSXClosingFragment", "JSXText", "JSXEmptyExpression", "JSXSpreadChild"],
+			"offsetTernaryExpressions": true
+		}],
+
+		"node/no-missing-import": "off",
+		"node/no-unsupported-features/es-syntax": "off",
+		"node/no-unpublished-import": "off",
+		"node/no-unpublished-require": "off"
+	}
+}
