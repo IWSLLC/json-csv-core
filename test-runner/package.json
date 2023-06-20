@@ -1,6 +1,6 @@
 {
   "name": "@iwsio/json-csv-core-test",
-  "version": "0.2.14-alpha.3",
+  "version": "1.0.0-alpha.1",
   "description": "",
   "main": "index.js",
   "engines": {
