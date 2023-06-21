@@ -1,0 +1,39 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/recommended",
+		"plugin:node/recommended"
+	],
+
+	"env": {
+		"node": true
+	},
+
+	"plugins": [
+		"node",
+		"import"
+	],
+
+	"rules": {
+		"indent": ["error", "tab", {
+			"SwitchCase": 1,
+			"VariableDeclarator": 1,
+			"outerIIFEBody": 1,
+			"MemberExpression": 1,
+			"FunctionDeclaration": { "parameters": 1, "body": 1 },
+			"FunctionExpression": { "parameters": 1, "body": 1 },
+			"CallExpression": { "arguments": 1 },
+			"ArrayExpression": 1,
+			"ObjectExpression": 1,
+			"ImportDeclaration": 1,
+			"flatTernaryExpressions": false,
+			"ignoreComments": false,
+			"ignoredNodes": ["TemplateLiteral *", "JSXElement", "JSXElement > *", "JSXAttribute", "JSXIdentifier", "JSXNamespacedName", "JSXMemberExpression", "JSXSpreadAttribute", "JSXExpressionContainer", "JSXOpeningElement", "JSXClosingElement", "JSXFragment", "JSXOpeningFragment", "JSXClosingFragment", "JSXText", "JSXEmptyExpression", "JSXSpreadChild"],
+			"offsetTernaryExpressions": true
+		}],
+
+		"node/no-missing-import": "off",
+		"node/no-unsupported-features/es-syntax": "off",
+		"node/no-unpublished-import": "off"
+	}
+}
