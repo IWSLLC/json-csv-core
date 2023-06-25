@@ -1,8 +1,8 @@
 # @iwsio/json-csv-core
 
-[![Tests CI](https://github.com/IWSLLC/json-csv-core/actions/workflows/test.yaml/badge.svg)](https://github.com/IWSLLC/json-csv-core/actions/workflows/test.yaml)
+[![Changes to main](https://github.com/iwsllc/json-csv-core/actions/workflows/push-main.yml/badge.svg)](https://github.com/iwsllc/json-csv-core/actions/workflows/push-main.yml)
 
-Simple CSV export module that can export a rich JSON array of objects to CSV. This core library will focus on the buffered and single object conversion to CSV and is built for node AND browser. You can [read more about it and see a live example on my blog.](https://iws.io/2022/json-csv-v5) 
+Simple CSV export module that can export a rich JSON array of objects to CSV. This core library will focus on the buffered and single object conversion to CSV and is built for node AND browser. You can [read more about it and see a live example on my blog.](https://iws.io/2023/json-csv-v6) 
 
 ## Getting Started
 
